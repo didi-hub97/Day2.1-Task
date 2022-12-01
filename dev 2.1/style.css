@@ -1,0 +1,20 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h3 {
+    color: blueviolet;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  h4 {
+    color: navy;
+    font-style: calc();
+  }
+  h5 {
+    font-size: unset;
+  }

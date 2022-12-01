@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><h3>Aya Budget Calculator for Nigerian Families</h3></title>
+    <link rel="stylesheet" href="style.css" media="screen"/>
+    <script src="calcul.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <h4>Hello, and welcome to Aya's family budget calculator.<br>
+        Please ensure every information you enter is accurate, as it will be used to calculate your family's 
+        monthly budget and in the long run determine your standard of living.
+    </h4>
+    <div>
+        <h5>
+        <form>
+            <label for="age">Enter your age:</label>
+            <input type="number" class="age" name="age">
+          </form><br>
+        <p>
+            <form>
+                <label for="Gender">Select your Gender</label></br>
+                <input type="radio" class="Gender" name="Gender" value="Male">
+                <label for="Gender">Male</label><br>
+                <input type="radio" class="Gender" name="Gender" value="Female">
+                <label for="Gender">Female</label>
+              </form>
+          
+        </p>
+        <p>
+            <form>
+                <label for="Marital Status">Select your Marital Status</label></br>
+                <input type="radio" class = "Married" name="status" value="Married" checked> Married<br>
+                <input type="radio" class = "Unmarried" name="status" value="Unmarried"> Unmarried<br>
+                <input type="radio" class = "Widow" name="status" value="Widow"> Widow</br>
+                <input type="radio" class = "Divorced" name="status" value="Divorced">Divorced<br>
+                <input type="radio" class = "Separated" name="status" value="Separated">Separated</br>
+              </form>
+        </p>
+        <p>
+            <form>
+                <label for="income">Enter your monthly income:</label>
+                <input type="number" class = "income" name="income">
+            </form></br>
+
+ 
+            <form>
+                <label for="no. of dependents">How many people are dependent on you?</label></br>
+                
+                <input type="radio" class="no. of dependents" name="status" value="no. of dependents">One</br>
+                <input type="radio" class="no. of dependents" name="status" value="no. of dependents">Two</br>
+                <input type="radio" class="no. of dependents" name="status" value="no. of dependents">Three</br>
+                <input type="radio" class="no. of dependents" name="status" value="no. of dependents">Four</br>
+                <input type="radio" class="no. of dependents" name="status" value="no. of dependents">Five and above</br>
+
+            </form>
+        
+        </h5>
+
+    </div>
+</body>
+</html>
+
+
+<!--You have been tasked to design an automated budget calculator. Your main objective is 
+to collect information about a person in a form. The result is then generated based on the data 
+that has been collected from the person in the form.
+You are expected to work with these data: income, age, gender, marital status, 
+and the number of dependents. You are free to make useful assumptions where necessary. 
+
+Result: a formatted page showing at least 10 budget categories and their percentage and naira amounts. -->
